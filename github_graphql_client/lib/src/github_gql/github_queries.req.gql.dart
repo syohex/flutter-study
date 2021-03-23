@@ -13,3 +13,28 @@ class ViewerDetail extends _i1.Request {
             operation: _i3.ViewerDetail,
             variables: buildVars(_i2.ViewerDetailVarBuilder()).variables);
 }
+
+class PullRequests extends _i1.Request {
+  PullRequests(
+      _i2.PullRequestsVarBuilder Function(_i2.PullRequestsVarBuilder) buildVars)
+      : super(
+            operation: _i3.PullRequests,
+            variables: buildVars(_i2.PullRequestsVarBuilder()).variables);
+}
+
+class AssignedIssues extends _i1.Request {
+  AssignedIssues(
+      _i2.AssignedIssuesVarBuilder Function(_i2.AssignedIssuesVarBuilder)
+          buildVars)
+      : super(
+            operation: _i3.AssignedIssues,
+            variables: buildVars(_i2.AssignedIssuesVarBuilder()).variables);
+}
+
+class Repositories extends _i1.Request {
+  Repositories(
+      _i2.RepositoriesVarBuilder Function(_i2.RepositoriesVarBuilder) buildVars)
+      : super(
+            operation: _i3.Repositories,
+            variables: buildVars(_i2.RepositoriesVarBuilder()).variables);
+}
